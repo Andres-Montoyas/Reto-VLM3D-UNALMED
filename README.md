@@ -4,7 +4,7 @@
 **Participantes:**  
 - Jerónimo Hoyos Botero  
 - Andrés Esteban Montoya Suárez  
-
+- Jose Miguel García Vélez
 ---
 
 ## Introducción
@@ -29,15 +29,12 @@ Reto-VLM3D-UNALMED/
 │   └── README.md              # Instrucciones para obtener el dataset desde Hugging Face / Zenodo
 │
 ├── src/                       # Código fuente del proyecto
-│   ├── __init__.py
-│   ├── entrenamiento.py       # Script de entrenamiento de modelos
-│   └── utils.py               # Funciones auxiliares
 │
 ├── notebooks/                 # Jupyter notebooks de experimentación
 │   └── enfermedades.ipynb
+|   ├── otros_labels.ipynb
 │
-├── .git/                      # Carpeta interna de Git
-├── .gitignore                 # Reglas para ignorar archivos (ej: venv, datos grandes, etc.)
+├── .gitignore                 
 ├── LICENSE                    # Licencia MIT del código
 └── README.md                  # Documentación principal del proyecto
 
@@ -53,11 +50,11 @@ Reto-VLM3D-UNALMED/
 # Clonar repositorio
 git clone https://github.com/JeroHoyos/Reto-VLM3D-UNALMED
 
-# Entrar al directorio del Desarrollo
-cd Agent_IA_Doctor_Banach/desarrollo
+# Entrar al directorio del notebooks
+cd Reto-VLM3D-UNALMED/notebooks
 
 # Crear entorno virtual (Python)
-python -m venv .venv
+py -m venv .venv
 source venv/bin/activate  # Linux/Mac
 .venv\Scripts\activate    # Windows
 
@@ -67,7 +64,6 @@ pip install -r requirements.txt
 #Para desactivar entorno
 deactivate
 ```
-
 
 ## Recursos
 
