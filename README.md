@@ -1,10 +1,8 @@
 # Reto VLM3D - UNALMED
 
 **Materia:** Tópicos de Geometría y Visualización Médica  
-**Participantes:**  
-- Jerónimo Hoyos Botero  
+**Participante:**   
 - Andrés Esteban Montoya Suárez  
-- Jose Miguel García Vélez
 ---
 
 ## Introducción
